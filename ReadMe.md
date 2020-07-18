@@ -1,6 +1,6 @@
 ### Hello. My name is Evgeny Zubarev i am junior Frontend Developer. 
 
-#### This is my Tast Tesk for a ECODAR Company (Moscow) (Link test (Github page) [LINK](https://eozubarev.github.io/ecodar/)).
+#### This is my Tast Tesk for a ECODAR Company (Moscow) (Link GitHub Page: [ECODAR - Test](https://eozubarev.github.io/ecodar/)).
 
 * Technology stack:
  1. HTML
