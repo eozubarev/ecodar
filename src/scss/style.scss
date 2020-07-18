@@ -1,0 +1,31 @@
+@import "section-top";
+@import "normalize";
+@import "header-page";
+@import "components";
+@import "section-about";
+@import "section-works";
+@import "popup";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("../fonts/opensans-bold.woff") format("truetype");
+  src: url("../fonts/opensans-bold.woff2") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("../fonts/opensans-regular.woff") format("truetype");
+  src: url("../fonts/opensans-regular.woff2") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/* Fonts */

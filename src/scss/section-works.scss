@@ -1,0 +1,91 @@
+/* родитель */
+.section-works__block{
+
+}
+
+/* flex-контейнер */
+.section-works__row{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* flex-элемент */
+.section-works__element{
+margin: 0px 1px;
+position: relative;
+background: #dd4541;
+
+z-index: 5;
+}
+
+
+
+/* контент */
+.section-works__title{
+    width: 100%;
+    padding: 0 1px;
+
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+
+    position: absolute;
+    top: 43%;
+    left: 0;
+    z-index: 5;
+    transform: translate3d(0, -50%, 0);
+
+    text-transform: uppercase;
+    transition: opacity .1s linear;
+    
+}
+
+.section-works__info{
+    width: 100%;
+    padding: 0 1px;
+
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: normal;
+    color: white;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+
+    transition: opacity .1s linear;
+}
+
+.section-works__element:hover .img-works {
+    opacity: .1;
+    
+}
+.section-works__element:hover .section-works__info {
+    opacity: 100%;
+    
+}
+.section-works__element:hover .section-works__title {
+    opacity: 100%;
+    
+}
+
+.img-works {
+    transition: opacity .2s linear;
+}
+
+@media (max-width: 992px) {
+    .section-works__row {
+    flex-wrap: wrap;
+}
+    }
+
+    
